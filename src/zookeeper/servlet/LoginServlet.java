@@ -27,7 +27,7 @@ public class LoginServlet extends HttpServlet {
 				//Ìø×ªµ½µÇÂ¼Ò³Ãæ
 				resp.sendRedirect("login.jsp");
 			}else{
-				if((username.equals("vuclip")||username=="vuclip")&&(password.equals("vuclip")||password=="vuclip")){
+				if((username.equals("kangfei")||username=="kangfei")&&(password.equals("kangfei")||password=="kangfei")){
 					
 					System.out.println("login");
 					
